@@ -1,0 +1,41 @@
+.card {
+    width: 20%;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    position: absolute;
+    margin-left: -60px;
+    cursor: pointer;
+}
+.delete-btn {
+    position: absolute;
+    margin-left: -33px;
+    cursor: pointer;
+}
+
+.card-title > .name {
+    font-weight: 100;
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .div-cardlist {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .card {
+        width: 33%;
+        margin-top: 20px;
+    }
+    .div-cardlist {
+        display: flex;
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+.App {
+  text-align: left;
+}
+.content-part {
+  height: 730px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 400px) {
+  .content-part {
+    height: 940px;
+    overflow-y: auto;
+  }
+}
